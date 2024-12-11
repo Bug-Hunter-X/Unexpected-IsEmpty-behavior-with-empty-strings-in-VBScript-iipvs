@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in VBScript's handling of the IsEmpty function. The `IsEmpty` function in VBScript unexpectedly returns `False` for a Variant variable containing an empty string ("") instead of `True` as one might expect.
+
+This behavior can lead to unexpected program execution when the function expects empty values to be processed in a special way. The bug.vbs file shows the bug in action, and the bugSolution.vbs file provides a corrected implementation that accounts for this unexpected behaviour.
